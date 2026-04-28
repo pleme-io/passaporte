@@ -1,0 +1,32 @@
+apiVersion: v2
+name: lareira-passaporte
+description: |
+  passaporte — fleet identity primitive for saguão.
+  Wraps upstream goauthentik/authentik with pleme-io defaults:
+  KEDA HTTP scale-to-zero on the server, always-on outpost +
+  worker, ServiceMonitor + PrometheusRule + Cloudflare Tunnel
+  ingress at auth.quero.cloud, vector log shipping. Federated
+  to Google as a social IdP (configurable via Authentik admin
+  UI on first deploy). Supersedes lareira-authentik.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+home: https://github.com/pleme-io/passaporte
+sources:
+  - https://github.com/pleme-io/passaporte
+maintainers:
+  - name: pleme-io
+    email: ops@pleme.io
+keywords:
+  - saguao
+  - oidc
+  - authentik
+  - identity
+  - homelab
+dependencies:
+  - name: pleme-lib
+    version: "0.1.x"
+    repository: oci://ghcr.io/pleme-io/charts
+  - name: authentik
+    version: "2024.10.x"
+    repository: https://charts.goauthentik.io

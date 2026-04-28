@@ -1,0 +1,58 @@
+# lareira-passaporte values
+#
+# Mirrors lareira-authentik's values shape but renamed for the
+# typed primitive. The control-plane cluster's HelmRelease overrides
+# only the SOPS-rendered Secret (authentik.secret_key,
+# authentik.postgresql.password, authentik.bootstrap_password,
+# authentik.bootstrap_token) plus any cluster-specific resource
+# tweaks.
+
+enabled: true
+
+cloudflared:
+  expose: true
+  hostname: auth.quero.cloud
+
+# KEDA HTTP scale-to-zero on the server tier.
+keda:
+  enabled: true
+  cooldownPeriod: 600   # seconds; keep warm 10 min after last request
+  coldStartBudget: 15   # seconds; alert if exceeded
+
+# Federated social IdPs — configured via Authentik admin UI on
+# first deploy. Listed here for documentation; not template-driven
+# (Authentik admin's social-provider config lives in its database
+# and is set up once interactively).
+federated:
+  - google
+
+scopes:
+  - openid
+  - email
+  - profile
+  - groups
+
+sessionDuration: 86400  # 24h default; per-app overrides via consumer chart values
+
+# Authentik upstream chart values pass through here.
+authentik:
+  # secret_key, postgresql.password, bootstrap_password,
+  # bootstrap_token come from the SOPS-rendered Secret —
+  # NOT set in this values file.
+  outposts:
+    discover: true
+  server:
+    autoscaling:
+      enabled: false   # KEDA HTTP add-on owns scaling
+
+# Saguão self-reference: passaporte itself is NOT gated by
+# forward-auth (would create a chicken-and-egg loop). The pleme-lib
+# helper explicitly skips when name == passaporte.
+compliance:
+  authn:
+    allowList:
+      unauthenticatedIngress: true   # passaporte is the IdP; no forward-auth in front of itself
+
+serviceMonitor:
+  enabled: true
+  interval: 30s
