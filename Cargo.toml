@@ -18,6 +18,16 @@ serde_json = "1"
 serde_yaml = "0.9"
 thiserror = "2"
 
+# tatara-lisp authoring surface — feature-gated.
+tatara-lisp = { git = "https://github.com/pleme-io/tatara", optional = true }
+tatara-lisp-derive = { git = "https://github.com/pleme-io/tatara", optional = true }
+
+[features]
+default = []
+# Enables `#[derive(TataraDomain)]` so Passaporte can be authored as
+# `(defpassaporte …)` Lisp forms.
+tatara-lisp = ["dep:tatara-lisp", "dep:tatara-lisp-derive"]
+
 [dev-dependencies]
 serde_yaml = "0.9"
 

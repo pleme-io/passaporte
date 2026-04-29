@@ -17,3 +17,9 @@ pub mod render;
 
 pub use config::{IdpBackend, KedaConfig, Passaporte, SocialProvider};
 pub use render::PassaporteValues;
+
+/// Register `(defpassaporte …)` with the global tatara-lisp dispatcher.
+#[cfg(feature = "tatara-lisp")]
+pub fn register_lisp_surfaces() {
+    tatara_lisp::domain::register::<Passaporte>();
+}

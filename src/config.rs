@@ -2,9 +2,14 @@
 
 use serde::{Deserialize, Serialize};
 
+#[cfg(feature = "tatara-lisp")]
+use tatara_lisp_derive::TataraDomain;
+
 /// One typed identity primitive — names the IdP backend, federations,
 /// session policy, and KEDA tuning.
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
+#[cfg_attr(feature = "tatara-lisp", derive(TataraDomain))]
+#[cfg_attr(feature = "tatara-lisp", tatara(keyword = "defpassaporte"))]
 pub struct Passaporte {
     pub idp: IdpBackend,
     pub host: String,
