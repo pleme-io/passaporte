@@ -30,9 +30,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.2.61"
+version = "1.2.62"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d16d90359e986641506914ba71350897565610e87ce0ad9e6f28569db3dd5c6d"
+checksum = "a1dce859f0832a7d088c4f1119888ab94ef4b5d6795d1ce05afb7fe159d79f98"
 dependencies = [
  "find-msvc-tools",
  "shlex",
@@ -73,9 +73,9 @@ checksum = "5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582"
 
 [[package]]
 name = "hashbrown"
-version = "0.17.0"
+version = "0.17.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4f467dd6dccf739c208452f8014c75c18bb8301b050ad1cfb27153803edb0f51"
+checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
 
 [[package]]
 name = "indexmap"
@@ -107,7 +107,7 @@ checksum = "f8ca58f447f06ed17d5fc4043ce1b10dd205e060fb3ce5b979b8ed8e59ff3f79"
 
 [[package]]
 name = "passaporte"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde",
  "serde_json",
@@ -173,9 +173,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.149"
+version = "1.0.150"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "83fc039473c5595ace860d8c4fafa220ff474b3fc6bfdb4293327f1a37e94d86"
+checksum = "e8014e44b4736ed0538adeecded0fce2a272f22dc9578a7eb6b2d9993c74cfb9"
 dependencies = [
  "itoa",
  "memchr",
@@ -216,8 +216,8 @@ dependencies = [
 
 [[package]]
 name = "tatara-lisp"
-version = "0.2.0"
-source = "git+https://github.com/pleme-io/tatara#2750f399cd049ad9d13ede43a56bbe0c63bdac3a"
+version = "0.2.1"
+source = "git+https://github.com/pleme-io/tatara#9b3a6403f4c32b67c9be8413275502926759dd2a"
 dependencies = [
  "blake3",
  "serde",
@@ -228,8 +228,8 @@ dependencies = [
 
 [[package]]
 name = "tatara-lisp-derive"
-version = "0.2.0"
-source = "git+https://github.com/pleme-io/tatara#2750f399cd049ad9d13ede43a56bbe0c63bdac3a"
+version = "0.2.1"
+source = "git+https://github.com/pleme-io/tatara#9b3a6403f4c32b67c9be8413275502926759dd2a"
 dependencies = [
  "proc-macro2",
  "quote",

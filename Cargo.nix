@@ -93,11 +93,181 @@ rec {
     #   inject test dependencies into the build
 
     crates = {
+      "arrayref" = rec {
+        crateName = "arrayref";
+        version = "0.3.9";
+        edition = "2015";
+        sha256 = "1jzyp0nvp10dmahaq9a2rnxqdd5wxgbvp8xaibps3zai8c9fi8kn";
+        authors = [
+          "David Roundy <roundyd@physics.oregonstate.edu>"
+        ];
+
+      };
+      "arrayvec" = rec {
+        crateName = "arrayvec";
+        version = "0.7.6";
+        edition = "2018";
+        sha256 = "0l1fz4ccgv6pm609rif37sl5nv5k6lbzi7kkppgzqzh1vwix20kw";
+        authors = [
+          "bluss"
+        ];
+        features = {
+          "borsh" = [ "dep:borsh" ];
+          "default" = [ "std" ];
+          "serde" = [ "dep:serde" ];
+          "zeroize" = [ "dep:zeroize" ];
+        };
+      };
+      "blake3" = rec {
+        crateName = "blake3";
+        version = "1.8.5";
+        edition = "2024";
+        sha256 = "1khz6wq61fnr0gl1kmy4bxadc7gbcv4gbq05z4jdjhr8wqs3ra0a";
+        authors = [
+          "Jack O'Connor <oconnor663@gmail.com>"
+          "Samuel Neves"
+        ];
+        dependencies = [
+          {
+            name = "arrayref";
+            packageId = "arrayref";
+          }
+          {
+            name = "arrayvec";
+            packageId = "arrayvec";
+            usesDefaultFeatures = false;
+          }
+          {
+            name = "cfg-if";
+            packageId = "cfg-if";
+          }
+          {
+            name = "constant_time_eq";
+            packageId = "constant_time_eq";
+            usesDefaultFeatures = false;
+          }
+          {
+            name = "cpufeatures";
+            packageId = "cpufeatures";
+            target = { target, features }: (("x86" == target."arch" or null) || ("x86_64" == target."arch" or null));
+          }
+        ];
+        buildDependencies = [
+          {
+            name = "cc";
+            packageId = "cc";
+          }
+        ];
+        features = {
+          "default" = [ "std" ];
+          "digest" = [ "dep:digest" ];
+          "mmap" = [ "std" "dep:memmap2" ];
+          "rayon" = [ "dep:rayon-core" ];
+          "serde" = [ "dep:serde" ];
+          "std" = [ "constant_time_eq/std" ];
+          "traits-preview" = [ "dep:digest" ];
+          "zeroize" = [ "dep:zeroize" "arrayvec/zeroize" ];
+        };
+        resolvedDefaultFeatures = [ "default" "std" ];
+      };
+      "cc" = rec {
+        crateName = "cc";
+        version = "1.2.61";
+        edition = "2018";
+        sha256 = "0vawvnrrsmi8dygavq3wx085cmlp10sp3fhld5842rlqkqsr0vfi";
+        authors = [
+          "Alex Crichton <alex@alexcrichton.com>"
+        ];
+        dependencies = [
+          {
+            name = "find-msvc-tools";
+            packageId = "find-msvc-tools";
+          }
+          {
+            name = "shlex";
+            packageId = "shlex";
+          }
+        ];
+        features = {
+          "parallel" = [ "dep:libc" "dep:jobserver" ];
+        };
+      };
+      "cfg-if" = rec {
+        crateName = "cfg-if";
+        version = "1.0.4";
+        edition = "2018";
+        sha256 = "008q28ajc546z5p2hcwdnckmg0hia7rnx52fni04bwqkzyrghc4k";
+        libName = "cfg_if";
+        authors = [
+          "Alex Crichton <alex@alexcrichton.com>"
+        ];
+        features = {
+          "core" = [ "dep:core" ];
+          "rustc-dep-of-std" = [ "core" ];
+        };
+      };
+      "constant_time_eq" = rec {
+        crateName = "constant_time_eq";
+        version = "0.4.2";
+        edition = "2024";
+        sha256 = "16zamq60dq80k3rqlzh9j9cpjhishmh924lnwbplgrnmkkvfylix";
+        authors = [
+          "Cesar Eduardo Barros <cesarb@cesarb.eti.br>"
+        ];
+        features = {
+          "default" = [ "std" ];
+        };
+        resolvedDefaultFeatures = [ "std" ];
+      };
+      "cpufeatures" = rec {
+        crateName = "cpufeatures";
+        version = "0.3.0";
+        edition = "2024";
+        sha256 = "00fjhygsqmh4kbxxlb99mcsbspxcai6hjydv4c46pwb67wwl2alb";
+        authors = [
+          "RustCrypto Developers"
+        ];
+        dependencies = [
+          {
+            name = "libc";
+            packageId = "libc";
+            usesDefaultFeatures = false;
+            target = { target, features }: (("aarch64" == target."arch" or null) && ("android" == target."os" or null));
+          }
+          {
+            name = "libc";
+            packageId = "libc";
+            usesDefaultFeatures = false;
+            target = { target, features }: (("aarch64" == target."arch" or null) && ("linux" == target."os" or null));
+          }
+          {
+            name = "libc";
+            packageId = "libc";
+            usesDefaultFeatures = false;
+            target = { target, features }: (("aarch64" == target."arch" or null) && ("apple" == target."vendor" or null));
+          }
+          {
+            name = "libc";
+            packageId = "libc";
+            usesDefaultFeatures = false;
+            target = { target, features }: (("loongarch64" == target."arch" or null) && ("linux" == target."os" or null));
+          }
+        ];
+
+      };
       "equivalent" = rec {
         crateName = "equivalent";
         version = "1.0.2";
         edition = "2015";
         sha256 = "03swzqznragy8n0x31lqc78g2af054jwivp7lkrbrc0khz74lyl7";
+
+      };
+      "find-msvc-tools" = rec {
+        crateName = "find-msvc-tools";
+        version = "0.1.9";
+        edition = "2018";
+        sha256 = "10nmi0qdskq6l7zwxw5g56xny7hb624iki1c39d907qmfh3vrbjv";
+        libName = "find_msvc_tools";
 
       };
       "hashbrown" = rec {
@@ -161,6 +331,21 @@ rec {
           "no-panic" = [ "dep:no-panic" ];
         };
       };
+      "libc" = rec {
+        crateName = "libc";
+        version = "0.2.186";
+        edition = "2021";
+        sha256 = "0rnyhzjyqq9x56skkllbjzzzwym3r61lq3l4hqj64v71gw0r3av8";
+        authors = [
+          "The Rust Project Developers"
+        ];
+        features = {
+          "default" = [ "std" ];
+          "rustc-dep-of-std" = [ "align" "rustc-std-workspace-core" ];
+          "rustc-std-workspace-core" = [ "dep:rustc-std-workspace-core" ];
+          "use_std" = [ "std" ];
+        };
+      };
       "memchr" = rec {
         crateName = "memchr";
         version = "2.8.0";
@@ -182,7 +367,7 @@ rec {
       };
       "passaporte" = rec {
         crateName = "passaporte";
-        version = "0.1.0";
+        version = "0.1.1";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         authors = [
@@ -203,6 +388,16 @@ rec {
             packageId = "serde_yaml";
           }
           {
+            name = "tatara-lisp";
+            packageId = "tatara-lisp";
+            optional = true;
+          }
+          {
+            name = "tatara-lisp-derive";
+            packageId = "tatara-lisp-derive";
+            optional = true;
+          }
+          {
             name = "thiserror";
             packageId = "thiserror";
           }
@@ -213,7 +408,10 @@ rec {
             packageId = "serde_yaml";
           }
         ];
-
+        features = {
+          "tatara-lisp" = [ "dep:tatara-lisp" "dep:tatara-lisp-derive" ];
+        };
+        resolvedDefaultFeatures = [ "default" "tatara-lisp" ];
       };
       "proc-macro2" = rec {
         crateName = "proc-macro2";
@@ -446,6 +644,24 @@ rec {
         ];
 
       };
+      "shlex" = rec {
+        crateName = "shlex";
+        version = "1.3.0";
+        edition = "2015";
+        sha256 = "0r1y6bv26c1scpxvhg2cabimrmwgbp4p3wy6syj9n0c4s3q2znhg";
+        authors = [
+          "comex <comexk@gmail.com>"
+          "Fenhl <fenhl@fenhl.net>"
+          "Adrian Taylor <adetaylor@chromium.org>"
+          "Alex Touchet <alextouchet@outlook.com>"
+          "Daniel Parks <dp+git@oxidized.org>"
+          "Garrett Berg <googberg@gmail.com>"
+        ];
+        features = {
+          "default" = [ "std" ];
+        };
+        resolvedDefaultFeatures = [ "default" "std" ];
+      };
       "syn" = rec {
         crateName = "syn";
         version = "2.0.117";
@@ -477,7 +693,81 @@ rec {
           "proc-macro" = [ "proc-macro2/proc-macro" "quote?/proc-macro" ];
           "test" = [ "syn-test-suite/all-features" ];
         };
-        resolvedDefaultFeatures = [ "clone-impls" "default" "derive" "parsing" "printing" "proc-macro" ];
+        resolvedDefaultFeatures = [ "clone-impls" "default" "derive" "full" "parsing" "printing" "proc-macro" ];
+      };
+      "tatara-lisp" = rec {
+        crateName = "tatara-lisp";
+        version = "0.2.0";
+        edition = "2021";
+        workspace_member = null;
+        src = pkgs.fetchgit {
+          url = "https://github.com/pleme-io/tatara";
+          rev = "2750f399cd049ad9d13ede43a56bbe0c63bdac3a";
+          sha256 = "0g3mxdnsg8xcp6hzwfc1jkn0fas2d7ncx501mk87gwdvnanwmmxi";
+        };
+        libName = "tatara_lisp";
+        authors = [
+          "Pleme.io <engineering@pleme.io>"
+        ];
+        dependencies = [
+          {
+            name = "blake3";
+            packageId = "blake3";
+          }
+          {
+            name = "serde";
+            packageId = "serde";
+            features = [ "derive" ];
+          }
+          {
+            name = "serde_json";
+            packageId = "serde_json";
+          }
+          {
+            name = "tatara-lisp-derive";
+            packageId = "tatara-lisp-derive";
+          }
+          {
+            name = "thiserror";
+            packageId = "thiserror";
+          }
+        ];
+        features = {
+          "iac-forge" = [ "dep:iac-forge" ];
+        };
+        resolvedDefaultFeatures = [ "default" ];
+      };
+      "tatara-lisp-derive" = rec {
+        crateName = "tatara-lisp-derive";
+        version = "0.2.0";
+        edition = "2021";
+        workspace_member = null;
+        src = pkgs.fetchgit {
+          url = "https://github.com/pleme-io/tatara";
+          rev = "2750f399cd049ad9d13ede43a56bbe0c63bdac3a";
+          sha256 = "0g3mxdnsg8xcp6hzwfc1jkn0fas2d7ncx501mk87gwdvnanwmmxi";
+        };
+        procMacro = true;
+        libName = "tatara_lisp_derive";
+        authors = [
+          "Pleme.io <engineering@pleme.io>"
+        ];
+        dependencies = [
+          {
+            name = "proc-macro2";
+            packageId = "proc-macro2";
+          }
+          {
+            name = "quote";
+            packageId = "quote";
+          }
+          {
+            name = "syn";
+            packageId = "syn";
+            features = [ "full" ];
+          }
+        ];
+
       };
       "thiserror" = rec {
         crateName = "thiserror";
