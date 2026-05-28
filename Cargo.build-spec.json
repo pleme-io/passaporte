@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 5,
   "workspace": {
-    "root": "/Users/drzzln/code/github/pleme-io/passaporte",
+    "root": "/Users/luis.d/code/github/pleme-io/passaporte",
     "members": [
       {
         "name": "passaporte",
@@ -93,7 +93,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "hashbrown",
@@ -102,7 +103,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -113,7 +115,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "hashbrown",
@@ -122,7 +125,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -231,7 +235,8 @@
           ],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_json",
@@ -240,7 +245,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_yaml",
@@ -249,7 +255,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "thiserror",
@@ -258,7 +265,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -271,7 +279,8 @@
           ],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_json",
@@ -280,7 +289,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_yaml",
@@ -289,7 +299,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "thiserror",
@@ -298,7 +309,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -343,7 +355,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -354,7 +367,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -414,7 +428,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -425,7 +440,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -517,7 +533,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_derive",
@@ -526,7 +543,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "host"
         }
       ],
       "runtime_dependencies": [
@@ -539,7 +557,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_derive",
@@ -548,7 +567,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "host"
         }
       ],
       "build_dependencies": [],
@@ -630,7 +650,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -641,7 +662,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -656,7 +678,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -667,7 +690,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -678,7 +702,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -693,7 +718,8 @@
           ],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -752,7 +778,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -761,7 +788,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_core",
@@ -770,7 +798,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "zmij",
@@ -779,7 +808,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -790,7 +820,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "memchr",
@@ -799,7 +830,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde_core",
@@ -808,7 +840,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "zmij",
@@ -817,7 +850,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -859,7 +893,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "itoa",
@@ -868,7 +903,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "ryu",
@@ -877,7 +913,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde",
@@ -886,7 +923,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unsafe_libyaml",
@@ -895,7 +933,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -906,7 +945,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "itoa",
@@ -915,7 +955,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "ryu",
@@ -924,7 +965,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "serde",
@@ -933,7 +975,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unsafe_libyaml",
@@ -942,7 +985,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -1001,7 +1045,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -1010,7 +1055,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unicode_ident",
@@ -1019,7 +1065,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -1030,7 +1077,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -1039,7 +1087,8 @@
           "features": [],
           "uses_default_features": false,
           "optional": true,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "unicode_ident",
@@ -1048,7 +1097,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -1123,7 +1173,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "host"
         }
       ],
       "runtime_dependencies": [
@@ -1134,7 +1185,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "host"
         }
       ],
       "build_dependencies": [],
@@ -1191,7 +1243,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -1200,7 +1253,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -1209,7 +1263,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "runtime_dependencies": [
@@ -1220,7 +1275,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "quote",
@@ -1229,7 +1285,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         },
         {
           "name": "syn",
@@ -1238,7 +1295,8 @@
           "features": [],
           "uses_default_features": true,
           "optional": false,
-          "target": null
+          "target": null,
+          "tree": "target"
         }
       ],
       "build_dependencies": [],
@@ -1370,6 +1428,4388 @@
     "passaporte": {
       "default_bin": null,
       "repo": "pleme-io/passaporte"
+    }
+  },
+  "target_resolves": {
+    "aarch64-apple-darwin": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-apple-darwin": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-unknown-linux-gnu": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "x86_64-unknown-linux-musl": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "aarch64-unknown-linux-gnu": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
+    },
+    "aarch64-unknown-linux-musl": {
+      "crates": {
+        "equivalent-1.0.2": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "hashbrown-0.17.1": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "indexmap-2.14.0": {
+          "dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "equivalent",
+              "package_key": "equivalent-1.0.2",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "hashbrown",
+              "package_key": "hashbrown-0.17.1",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "itoa-1.0.18": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "memchr-2.8.0": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "passaporte-0.1.1": {
+          "dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [
+                "derive"
+              ],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_json",
+              "package_key": "serde_json-1.0.150",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_yaml",
+              "package_key": "serde_yaml-0.9.34+deprecated",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "thiserror",
+              "package_key": "thiserror-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "proc-macro2-1.0.106": {
+          "dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "quote-1.0.45": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "ryu-1.0.23": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde-1.0.228": {
+          "dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [
+                "result"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_derive",
+              "package_key": "serde_derive-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": true,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_core-1.0.228": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "serde_derive-1.0.228": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [
+                "clone-impls",
+                "derive",
+                "parsing",
+                "printing",
+                "proc-macro"
+              ],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_json-1.0.150": {
+          "dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "memchr",
+              "package_key": "memchr-2.8.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde_core",
+              "package_key": "serde_core-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "zmij",
+              "package_key": "zmij-1.0.21",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "serde_yaml-0.9.34+deprecated": {
+          "dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "indexmap",
+              "package_key": "indexmap-2.14.0",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "itoa",
+              "package_key": "itoa-1.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "ryu",
+              "package_key": "ryu-1.0.23",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "serde",
+              "package_key": "serde-1.0.228",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unsafe_libyaml",
+              "package_key": "unsafe-libyaml-0.2.11",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "syn-2.0.117": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": false,
+              "optional": true,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "unicode_ident",
+              "package_key": "unicode-ident-1.0.24",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-2.0.18": {
+          "dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "thiserror_impl",
+              "package_key": "thiserror-impl-2.0.18",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "host"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "thiserror-impl-2.0.18": {
+          "dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "runtime_dependencies": [
+            {
+              "name": "proc_macro2",
+              "package_key": "proc-macro2-1.0.106",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "quote",
+              "package_key": "quote-1.0.45",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            },
+            {
+              "name": "syn",
+              "package_key": "syn-2.0.117",
+              "kind": "normal",
+              "features": [],
+              "uses_default_features": true,
+              "optional": false,
+              "target": null,
+              "tree": "target"
+            }
+          ],
+          "build_dependencies": []
+        },
+        "unicode-ident-1.0.24": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "unsafe-libyaml-0.2.11": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        },
+        "zmij-1.0.21": {
+          "dependencies": [],
+          "runtime_dependencies": [],
+          "build_dependencies": []
+        }
+      }
     }
   }
 }
