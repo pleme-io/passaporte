@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "fc070dccdfe168e19af7743fab4f89ed716167f21039b09fe9e8abaa6a078938",
+  "cargo_lock_sha256": "bad8434a464701886c873a0e94edafd0bac98a3c0dfa0a2d2ff79498841b1f3d",
   "target_resolves": {
     "base": {
       "equivalent-1.0.2": {
