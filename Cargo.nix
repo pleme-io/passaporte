@@ -172,9 +172,9 @@ rec {
       };
       "cc" = rec {
         crateName = "cc";
-        version = "1.2.62";
+        version = "1.2.63";
         edition = "2018";
-        sha256 = "164zsxcy2zzvbbh1qpbrsssz8kmria41j4agih47sal3y1cyip51";
+        sha256 = "0zy2bqc4nvj6bv2cipx4h4bn65wf1zqf1fw1hsh64mmvg1hh2vjm";
         authors = [
           "Alex Crichton <alex@alexcrichton.com>"
         ];
@@ -345,9 +345,9 @@ rec {
       };
       "memchr" = rec {
         crateName = "memchr";
-        version = "2.8.0";
+        version = "2.8.1";
         edition = "2021";
-        sha256 = "0y9zzxcqxvdqg6wyag7vc3h0blhdn7hkq164bxyx2vph8zs5ijpq";
+        sha256 = "1n448jx01h5z2xknj6x2dhxgr8s8fb717cf6vfqj5lmhkpj7m53b";
         authors = [
           "Andrew Gallant <jamslam@gmail.com>"
           "bluss"
@@ -364,7 +364,7 @@ rec {
       };
       "passaporte" = rec {
         crateName = "passaporte";
-        version = "0.1.2";
+        version = "0.1.3";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         authors = [
@@ -643,9 +643,9 @@ rec {
       };
       "shlex" = rec {
         crateName = "shlex";
-        version = "1.3.0";
-        edition = "2015";
-        sha256 = "0r1y6bv26c1scpxvhg2cabimrmwgbp4p3wy6syj9n0c4s3q2znhg";
+        version = "2.0.1";
+        edition = "2018";
+        sha256 = "1fjsll1cd7d2bcpdij9kd6w62rpbc7qqzvydvs021vsmr1cxvypq";
         authors = [
           "comex <comexk@gmail.com>"
           "Fenhl <fenhl@fenhl.net>"
@@ -699,8 +699,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/tatara";
-          rev = "6bcdf2f09c69c859a85e354cecaf1036cd4ca163";
-          sha256 = "0ml3r5kv1z3fjx5fphcm80hdqqw5hag1zh7ijcl0isiacaxkk5sv";
+          rev = "536e741b92cc54724ea8d131e60ed5ea1c8ad59f";
+          sha256 = "0w29v8qzs2mjgh4ck05pfsrywvddma96nh1xnbfaka7g4az5z5gb";
         };
         libName = "tatara_lisp";
         authors = [
@@ -741,8 +741,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/tatara";
-          rev = "6bcdf2f09c69c859a85e354cecaf1036cd4ca163";
-          sha256 = "0ml3r5kv1z3fjx5fphcm80hdqqw5hag1zh7ijcl0isiacaxkk5sv";
+          rev = "536e741b92cc54724ea8d131e60ed5ea1c8ad59f";
+          sha256 = "0w29v8qzs2mjgh4ck05pfsrywvddma96nh1xnbfaka7g4az5z5gb";
         };
         procMacro = true;
         libName = "tatara_lisp_derive";
